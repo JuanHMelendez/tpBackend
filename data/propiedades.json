@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "tipo_de_casa": "Casa de playa (2-6 personas)",
+    "nombre_propietario": "Juan Pérez",
+    "telefono_propietario": "123456789",
+    "domicilio_propiedad": "Calle Principal #123",
+    "ocupado": true,
+    "descripcion": "Acogedora casa de playa con acceso directo a la arena y vistas al mar.",
+    "ciudad": "Playa del Carmen"
+  },
+  {
+    "id": 2,
+    "tipo_de_casa": "Apartamento de playa (2-6 personas)",
+    "nombre_propietario": "María García",
+    "telefono_propietario": "987654321",
+    "domicilio_propiedad": "Avenida Central #456",
+    "ocupado": false,
+    "descripcion": "Moderno apartamento de playa con balcón frente al océano y piscina comunitaria.",
+    "ciudad": "Cancún"
+  },
+  {
+    "id": 3,
+    "tipo_de_casa": "Casa adosada en el balneario (2-6 personas)",
+    "nombre_propietario": "Carlos Martínez",
+    "telefono_propietario": "555666777",
+    "domicilio_propiedad": "Plaza Mayor #789",
+    "ocupado": true,
+    "descripcion": "Encantadora casa adosada en el corazón del balneario, a pasos de la playa.",
+    "ciudad": "Acapulco"
+  },
+  {
+    "id": 4,
+    "tipo_de_casa": "Chalet frente al mar (2-6 personas)",
+    "nombre_propietario": "Laura Rodríguez",
+    "telefono_propietario": "555123456",
+    "domicilio_propiedad": "Calle de la Colina #10",
+    "ocupado": false,
+    "descripcion": "Impresionante chalet con jardín privado y acceso directo a la playa de arena blanca.",
+    "ciudad": "Mazatlán"
+  },
+  {
+    "id": 5,
+    "tipo_de_casa": "Bungalow junto al mar (2-6 personas)",
+    "nombre_propietario": "Pedro Sánchez",
+    "telefono_propietario": "123123123",
+    "domicilio_propiedad": "Calle del Sol #567",
+    "ocupado": true,
+    "descripcion": "Agradable bungalow a solo unos pasos del mar, perfecto para relajarse y disfrutar del sol.",
+    "ciudad": "Puerto Vallarta"
+  },
+  {
+    "id": 6,
+    "tipo_de_casa": "Casa rural cerca del balneario (2-6 personas)",
+    "nombre_propietario": "Ana López",
+    "telefono_propietario": "999888777",
+    "domicilio_propiedad": "Camino Real #321",
+    "ocupado": false,
+    "descripcion": "Casa rural con encanto, ubicada en los alrededores del balneario, ideal para desconectar y disfrutar de la naturaleza.",
+    "ciudad": "Tulum"
+  },
+  {
+    "id": 7,
+    "tipo_de_casa": "Piso con vistas al mar (2-6 personas)",
+    "nombre_propietario": "José García",
+    "telefono_propietario": "444555666",
+    "domicilio_propiedad": "Avenida de la Libertad #789",
+    "ocupado": true,
+    "descripcion": "Espacioso piso con impresionantes vistas al mar desde todas las habitaciones, a solo unos minutos de la playa.",
+    "ciudad": "La Paz"
+  },
+  {
+    "id": 8,
+    "tipo_de_casa": "Villa frente al mar (2-6 personas)",
+    "nombre_propietario": "Elena Fernández",
+    "telefono_propietario": "777888999",
+    "domicilio_propiedad": "Calle de la Palmera #456",
+    "ocupado": false,
+    "descripcion": "Lujosa villa con piscina privada y acceso directo a la playa, ideal para unas vacaciones de ensueño.",
+    "ciudad": "Cabo San Lucas"
+  },
+  {
+    "id": 9,
+    "tipo_de_casa": "Casa de campo junto al mar (2-6 personas)",
+    "nombre_propietario": "Daniel Ruiz",
+    "telefono_propietario": "666777888",
+    "domicilio_propiedad": "Paseo Marítimo #101",
+    "ocupado": true,
+    "descripcion": "Encantadora casa de campo a orillas del mar, perfecta para disfrutar de la tranquilidad y la naturaleza.",
+    "ciudad": "Manzanillo"
+  },
+  {
+    "id": 10,
+    "tipo_de_casa": "Cabaña costera (2-6 personas)",
+    "nombre_propietario": "Sara López",
+    "telefono_propietario": "222333444",
+    "domicilio_propiedad": "Bosque Encantado #13",
+    "ocupado": false,
+    "descripcion": "Acogedora cabaña con vistas al mar y acceso privado a la playa, ideal para escapadas románticas.",
+    "ciudad": "Ensenada"
+  },
+  {
+    "id": 10,
+    "tipo_de_casa": "casita",
+    "nombre_propietario": "culo",
+    "telefono_propietario": "123123123",
+    "domicilio_propiedad": "Calle falsa 123",
+    "ocupado": true,
+    "descripcion": "Agradable bungalow a solo unos pasos del mar, perfecto para relajarse y disfrutar del sol.",
+    "ciudad": "Mazatlán"
+  },
+  {
+    "id": 11,
+    "tipo_de_casa": "casita",
+    "nombre_propietario": "culo",
+    "telefono_propietario": "123123123",
+    "domicilio_propiedad": "Calle falsa 12356",
+    "ocupado": true,
+    "descripcion": "Agradable bungalow a solo unos pasos del mar, perfecto para relajarse y disfrutar del sol.",
+    "ciudad": "Mazatlán"
+  },
+  {
+    "id": 12,
+    "tipo_de_casa": "Casa rural cerca del balneario (2-6 personas)",
+    "nombre_propietario": "Ana López",
+    "telefono_propietario": "55",
+    "domicilio_propiedad": "Camino Real #321",
+    "ocupado": false,
+    "descripcion": "Casa rural con encanto, ubicada en los alrededores del balneario, ideal para desconectar y disfrutar de la naturaleza.",
+    "ciudad": "Tulum"
+  }
+]
