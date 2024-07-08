@@ -26,18 +26,18 @@ export class PropiedadesController {
 
 
 @Put(':id')
-update(@Param('id') id: number, @Body() updatePropiedadeDto:UpdatePropiedadeDto): iPropiedad {
+update(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number, @Body() updatePropiedadeDto:UpdatePropiedadeDto): iPropiedad {
   return this.propiedadesService.update(+id , updatePropiedadeDto)
 }
 
   @Patch(':id')
-  partialUpdate(@Param('id') id: string, @Body() updatePropiedadeDto: UpdatePropiedadeDto) {   //el patch solo modifica el dato que queres
+  partialUpdate(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: string, @Body() updatePropiedadeDto: UpdatePropiedadeDto) {   //el patch solo modifica el dato que queres
     return this.propiedadesService.update(+id, updatePropiedadeDto);
   }
 
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
+  remove(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: string) {
     return this.propiedadesService.remove(+id);
   }
 

@@ -53,7 +53,7 @@ export class PropiedadesService {
          if(Object.keys(prop).length)
       return prop;
         }catch(e){
-          throw new NotFoundException('no se encontro el id' +id); 
+          throw new NotFoundException('no se encontro el id' +id);  //validacion si pongo un id que no existe
     }
   }
 
