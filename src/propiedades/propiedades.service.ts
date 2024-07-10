@@ -30,7 +30,7 @@ export class PropiedadesService {
   private setId(): number {
     const propiedades = this.getAll();
     const ids = propiedades.map(prop => (prop.id)); 
-    const maxId = ids.length > 0 ? Math.max(...ids) : 0; // Encontrar el ID más grande en la matriz de IDs
+    const maxId = ids.length > 0 ? Math.max(...ids) : 0; // Encuentra el id mas grande y le suma uno mas   //ternaria if else
     return (maxId + 1); 
   }
 
@@ -59,7 +59,8 @@ export class PropiedadesService {
 
 
   update(id: number, updatePropiedadeDto: UpdatePropiedadeDto) : iPropiedad {
-    const index = this.propiedades.findIndex(propiedad => propiedad.id === id);
+    const index = this.propiedades.findIndex(propiedad => propiedad.id === id);      // Busca el indice de la propiedad en el arreglo 'propiedades' que coincide con el id proporcionado.
+
     if (index === -1){
     return null;
     }
@@ -69,16 +70,16 @@ export class PropiedadesService {
     return updatePropiedad;
   }
 
-  partialUpdate(id: number, updatePropiedadeDto: Partial<UpdatePropiedadeDto>): iPropiedad {
-    const index = this.propiedades.findIndex(propiedad => propiedad.id === id);
-    if (index === -1) {
-      return null;
-    }
-    const updatedPropiedad = { ...this.propiedades[index], ...updatePropiedadeDto };
-    this.propiedades[index] = updatedPropiedad;
-    this.saveToFile();
-    return updatedPropiedad;
-  }
+  // partialUpdate(id: number, updatePropiedadeDto: Partial<UpdatePropiedadeDto>): iPropiedad {
+  //   const index = this.propiedades.findIndex(propiedad => propiedad.id === id);
+  //   if (index === -1) {
+  //     return null;
+  //   }
+  //   const updatedPropiedad = { ...this.propiedades[index], ...updatePropiedadeDto };
+  //   this.propiedades[index] = updatedPropiedad;
+  //   this.saveToFile();
+  //   return updatedPropiedad;
+  // }
 
   remove(id: number):iPropiedad {
     const index = this.propiedades.findIndex(propiedad => propiedad.id === id);

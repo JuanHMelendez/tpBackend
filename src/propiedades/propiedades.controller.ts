@@ -30,10 +30,10 @@ update(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCE
   return this.propiedadesService.update(+id , updatePropiedadeDto)
 }
 
-  @Patch(':id')
-  partialUpdate(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: string, @Body() updatePropiedadeDto: UpdatePropiedadeDto) {   //el patch solo modifica el dato que queres
-    return this.propiedadesService.update(+id, updatePropiedadeDto);
-  }
+  // @Patch(':id')
+  // partialUpdate(@Param('id' , new ParseIntPipe ({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: string, @Body() updatePropiedadeDto: UpdatePropiedadeDto) {   //el patch solo modifica el dato que queres
+  //   return this.propiedadesService.update(+id, updatePropiedadeDto);
+  // }
 
 
   @Delete(':id')

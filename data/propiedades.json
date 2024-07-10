@@ -1,15 +1,5 @@
 [
   {
-    "id": 1,
-    "tipo_de_casa": "Casa de playa (2-6 personas)",
-    "nombre_propietario": "Juan Pérez",
-    "telefono_propietario": "123456789",
-    "domicilio_propiedad": "Calle Principal #123",
-    "ocupado": true,
-    "descripcion": "Acogedora casa de playa con acceso directo a la arena y vistas al mar.",
-    "ciudad": "Playa del Carmen"
-  },
-  {
     "id": 2,
     "tipo_de_casa": "Apartamento de playa (2-6 personas)",
     "nombre_propietario": "María García",
@@ -112,7 +102,7 @@
   {
     "id": 11,
     "tipo_de_casa": "casita",
-    "nombre_propietario": "culo",
+    "nombre_propietario": "juancito",
     "telefono_propietario": "123123123",
     "domicilio_propiedad": "Calle falsa 12356",
     "ocupado": true,
@@ -120,13 +110,13 @@
     "ciudad": "Mazatlán"
   },
   {
-    "id": 12,
-    "tipo_de_casa": "Casa rural cerca del balneario (2-6 personas)",
-    "nombre_propietario": "Ana López",
-    "telefono_propietario": "55",
-    "domicilio_propiedad": "Camino Real #321",
-    "ocupado": false,
-    "descripcion": "Casa rural con encanto, ubicada en los alrededores del balneario, ideal para desconectar y disfrutar de la naturaleza.",
-    "ciudad": "Tulum"
+    "id": 13,
+    "tipo_de_casa": "casita",
+    "nombre_propietario": "juancito",
+    "telefono_propietario": "213122313",
+    "domicilio_propiedad": "Calle falsa 12",
+    "ocupado": true,
+    "descripcion": "Agradable bungalow a solo unos pasos del mar, perfecto para relajarse y disfrutar del sol.",
+    "ciudad": "Mazatlán"
   }
 ]
